@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    /* background-color: rgba(16, 26, 57, 0.966); */
+    background: #002339;
+    color: rgba(240, 248, 255, 0.866);
+}
+
+.container{
+    width: 90%;
+    max-width: 700px;
+    margin: 12%;
+    margin-top: 80px;
+}
+
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #333;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    border-radius: 10px;
+
+
+}
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+
+}
+
+.display i{
+    color: #019f55;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+
+.container button i {
+    width: 28px;
+    margin-right: 10px;
+    font-size: xx-large;
+}
+
+.container button{
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 16px 26px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+
+#jeet{
+    text-align: center;
+   
+    
+}
+
+#mlogo{
+    height: 150px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#first{
+
+    height: 80px;
+
+    border-radius: 20px;
+   
+}
+
+#f{
+    background-color: aliceblue;
+    text-align: center;
+   margin-top: -130px;
+}
